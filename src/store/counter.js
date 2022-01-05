@@ -5,6 +5,7 @@ export const useStore = defineStore("main", {
     return {
       counter: 0,
       name: "abcd",
+      isOpen: true
     };
   },
   getters: {
@@ -22,5 +23,11 @@ export const useStore = defineStore("main", {
     randomizeCounter() {
       this.counter = Math.round(100 * Math.random());
     },
+    close(){
+      this.isOpen = false
+    },
+    open(){
+      this.isOpen = true
+    }
   },
 });

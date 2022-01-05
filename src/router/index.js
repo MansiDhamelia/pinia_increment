@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-
+import CreateEvent from '../views/SimpleForm.vue'
 
 const routes = [
   {
@@ -8,6 +8,12 @@ const routes = [
     name: 'Home',
     component: Home
   },
+  {
+    path: '/event',
+    name: 'createevent',
+    component: CreateEvent
+  },
+  
   {
     path: '/about',
     name: 'About',
