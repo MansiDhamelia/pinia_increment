@@ -5,7 +5,7 @@
       v-bind="$attrs"
     
       :placeholder="label"
-      class="p-1 h-8 w-auto rounded-lg my-1 border-2 "
+      class="p-1 h-8 w-auto rounded-lg my-1 border-2  "
    
     />
   </div>

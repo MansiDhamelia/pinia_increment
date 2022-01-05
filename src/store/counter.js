@@ -5,7 +5,7 @@ export const useStore = defineStore("main", {
     return {
       counter: 0,
       name: "abcd",
-      isOpen: true
+      isOpen: false
     };
   },
   getters: {
